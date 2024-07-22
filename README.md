@@ -1,10 +1,6 @@
-# Iterative Bounding Markov Decision Process
-Implementation of [IBMDPS](https://arxiv.org/abs/2102.13045).
-Just copy the gymnasium environment from here [ibmdp](ibmdp/ibmdp.py)
-
-```bash
-pip install gymnasium
-```
+# Iterative Bounding Markov Decision Processes
+Implementation of [IBMDPs](https://arxiv.org/abs/2102.13045).
+Just copy the ```gymnasium``` environment from here [ibmdp](ibmdp/ibmdp.py).
 
 ```python
 from stable_baselines3 import PPO
