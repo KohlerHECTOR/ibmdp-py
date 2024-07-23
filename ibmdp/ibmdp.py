@@ -71,6 +71,7 @@ class IBMDP(Env):
             self.zeta = zeta
         
     def reset(self, seed=None):
+        super().reset(seed=seed)
         s, infos = self.base_env.reset()
         self._state = np.append(s, self.init_bounds_)
 
